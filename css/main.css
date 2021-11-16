@@ -78,9 +78,14 @@ hr {
 	font-weight: 600;
 }
 
-.header-bottom h1 {
+.header-bottom a {
+	margin: 0 0 15px 0;
 	font-size: 70px;
 	text-shadow: 3px 3px 0 #fff;
+	font-family: 'Quantico', sans-serif;
+	color: #000;
+	font-weight: 700;
+	line-height: 1.2;
 }
 
 .header-bottom {
