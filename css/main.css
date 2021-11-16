@@ -1,6 +1,6 @@
 /* fonts */
 h1, h2, h3, h4, h5 {
-	margin: 0;
+	margin: 0 0 15px 0;
 	font-family: 'Quantico', sans-serif;
 	color: #000;
 	font-weight: 700;
@@ -13,6 +13,10 @@ h1 {
 
 h3 {
 	font-size: 40px;
+}
+
+h4 {
+	font-size: 32px;
 }
 
 p {
@@ -39,6 +43,12 @@ a {
 body {
 	margin: 0;
 	background-color: #71797E;
+}
+
+hr {
+	margin-top: 15px;
+	margin-bottom: 15px;
+	border-color: #888;
 }
 
 .header {
@@ -90,17 +100,17 @@ body {
 }
 
 .menubar a {
+	min-width: 165px;
 	padding: 10px 10px 5px 10px;
 	margin-left: 10px;
 	margin-right: 10px;
 	background-color: #000;
 	border-radius: 10px 10px 0 0 ;
+	text-align: center;
 	text-transform: uppercase;
 	color: #d9d9d9;
 	font-weight: 600;
 }
-
-/* startpage */
 
 .content {
 	max-width: 1400px;
@@ -109,6 +119,9 @@ body {
 }
 
 .content-top {
+	max-width: 75%;
+	margin-left: auto;
+	margin-right: auto;
 	padding-top: 30px;
 	padding-bottom: 30px;
 	text-align: center;
@@ -116,6 +129,6 @@ body {
 
 .content-top img {
 	padding-top: 30px;
-	max-width: 400px;
+	max-width: 300px;
 	height: auto;
 }
